@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.web.daimus.kasklas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_512"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo_512"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".PaymentActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".ProductActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".BillActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".ExpenseActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".StudentActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoAnimation" />
+        <activity
+            android:name=".StudentPickerActivity" />
+        <activity
+            android:name=".StepperActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProductPickerActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".StudentFormActivity" />
+        <activity android:name=".PaymentFormActivity"/>
+        <activity android:name=".ExpenseFormActivity" />
+        <activity android:name=".ProductFormActivity" />
+    </application>
+
+</manifest>

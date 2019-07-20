@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_attach_money"
+            android:title="Pembayaran" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_list"
+            android:title="Item Pembayaran" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_credit_card"
+            android:title="Tagihan" />
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Pengeluaran" />
+        <item
+            android:id="@+id/nav_student"
+            android:icon="@drawable/ic_person"
+            android:title="Data Siswa" />
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="Tentang App" />
+    </group>
+
+</menu>

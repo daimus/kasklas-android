@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KasKlas</string>
+    <string name="title_activity_main">KasKlas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--aplication parameter-->
+    <string name="sharedprefname">kasklasconf</string>
+
+    <!--button, notofication, message and more strings-->
+    <string name="OK">Okay!</string>
+    <string name="CANCEL">Batal</string>
+    <string name="YES">Ya!</string>
+    <string name="NO">Tidaak!</string>
+    <string name="ACCEPT">Setuju</string>
+    <string name="DECLINE">Gak Setuju</string>
+    <string name="RETRY">Coba Lagi</string>
+    <string name="DELETE_CONFIRMATION_HEAD">Yakin?</string>
+    <string name="DELETE_CONFIRMATION_BODY">Data yang sudah dihapus tidak bisa kembali lagi</string>
+    <string name="APP_CONNECTION_EXCEPTION">Duh! Terjadi kesalahan ketika menghubungi server</string>
+    <string name="NO_CONNECTION_HEAD">Tidak ada koneksi!</string>
+    <string name="NO_CONNECTION_BODY">Server tidak dapat dihubungi! Cek koneksi internet kamu kemudian coba lagi</string>
+
+</resources>
